@@ -16,5 +16,7 @@ dubbo:
     name: dubbo
     id: dubbo
   registry:
-    # 配置多个zookeeper集群中的多个服务器所在地址
-    address: zookeeper://127.0.0.1:2181?backup=127.0.0.1:2182,127.0.0.1:2183
+    # 閰嶇疆澶氫釜zookeeper闆嗙兢涓殑澶氫釜鏈嶅姟鍣ㄦ墍鍦ㄥ湴鍧�
+    address: zookeeper://localhost:2181
+  metadata-report:
+    address: zookeeper://localhost:2181
